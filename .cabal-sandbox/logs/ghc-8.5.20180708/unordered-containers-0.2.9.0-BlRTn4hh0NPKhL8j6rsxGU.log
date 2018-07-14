@@ -1,0 +1,384 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29910/unordered-containers-0.2.9.0'
+Configuring unordered-containers-0.2.9.0...
+Preprocessing library for unordered-containers-0.2.9.0..
+Building library for unordered-containers-0.2.9.0..
+[1 of 8] Compiling Data.HashMap.List ( Data/HashMap/List.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/List.o )
+[2 of 8] Compiling Data.HashMap.Unsafe ( Data/HashMap/Unsafe.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Unsafe.o )
+[3 of 8] Compiling Data.HashMap.Array ( Data/HashMap/Array.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Array.o )
+
+Data/HashMap/Array.hs:89:1-9: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      newArray# :: ghc-prim-0.5.3:GHC.Prim.Int#
+                   -> a
+                   -> ghc-prim-0.5.3:GHC.Prim.State# d
+                   -> (# ghc-prim-0.5.3:GHC.Prim.State# d, SmallMutableArray# d a #)
+   |
+89 | newArray# = newSmallArray#
+   | ^^^^^^^^^
+
+Data/HashMap/Array.hs:90:1-10: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      readArray# :: SmallMutableArray# d a
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.State# d
+                    -> (# ghc-prim-0.5.3:GHC.Prim.State# d, a #)
+   |
+90 | readArray# = readSmallArray#
+   | ^^^^^^^^^^
+
+Data/HashMap/Array.hs:91:1-11: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      writeArray# :: SmallMutableArray# d a
+                     -> ghc-prim-0.5.3:GHC.Prim.Int#
+                     -> a
+                     -> ghc-prim-0.5.3:GHC.Prim.State# d
+                     -> ghc-prim-0.5.3:GHC.Prim.State# d
+   |
+91 | writeArray# = writeSmallArray#
+   | ^^^^^^^^^^^
+
+Data/HashMap/Array.hs:92:1-11: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      indexArray# :: SmallArray# a
+                     -> ghc-prim-0.5.3:GHC.Prim.Int# -> (# a #)
+   |
+92 | indexArray# = indexSmallArray#
+   | ^^^^^^^^^^^
+
+Data/HashMap/Array.hs:93:1-18: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      unsafeFreezeArray# :: SmallMutableArray# d a
+                            -> ghc-prim-0.5.3:GHC.Prim.State# d
+                            -> (# ghc-prim-0.5.3:GHC.Prim.State# d, SmallArray# a #)
+   |
+93 | unsafeFreezeArray# = unsafeFreezeSmallArray#
+   | ^^^^^^^^^^^^^^^^^^
+
+Data/HashMap/Array.hs:94:1-16: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      unsafeThawArray# :: SmallArray# a
+                          -> ghc-prim-0.5.3:GHC.Prim.State# d
+                          -> (# ghc-prim-0.5.3:GHC.Prim.State# d, SmallMutableArray# d a #)
+   |
+94 | unsafeThawArray# = unsafeThawSmallArray#
+   | ^^^^^^^^^^^^^^^^
+
+Data/HashMap/Array.hs:95:1-12: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      sizeofArray# :: SmallArray# a -> ghc-prim-0.5.3:GHC.Prim.Int#
+   |
+95 | sizeofArray# = sizeofSmallArray#
+   | ^^^^^^^^^^^^
+
+Data/HashMap/Array.hs:96:1-10: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      copyArray# :: SmallArray# a
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> SmallMutableArray# d a
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.State# d
+                    -> ghc-prim-0.5.3:GHC.Prim.State# d
+   |
+96 | copyArray# = copySmallArray#
+   | ^^^^^^^^^^
+
+Data/HashMap/Array.hs:97:1-10: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      thawArray# :: SmallArray# a
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.State# d
+                    -> (# ghc-prim-0.5.3:GHC.Prim.State# d, SmallMutableArray# d a #)
+   |
+97 | thawArray# = thawSmallArray#
+   | ^^^^^^^^^^
+
+Data/HashMap/Array.hs:98:1-19: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      sizeofMutableArray# :: SmallMutableArray# d a
+                             -> ghc-prim-0.5.3:GHC.Prim.Int#
+   |
+98 | sizeofMutableArray# = sizeofSmallMutableArray#
+   | ^^^^^^^^^^^^^^^^^^^
+
+Data/HashMap/Array.hs:99:1-17: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      copyMutableArray# :: SmallMutableArray# d a
+                           -> ghc-prim-0.5.3:GHC.Prim.Int#
+                           -> SmallMutableArray# d a
+                           -> ghc-prim-0.5.3:GHC.Prim.Int#
+                           -> ghc-prim-0.5.3:GHC.Prim.Int#
+                           -> ghc-prim-0.5.3:GHC.Prim.State# d
+                           -> ghc-prim-0.5.3:GHC.Prim.State# d
+   |
+99 | copyMutableArray# = copySmallMutableArray#
+   | ^^^^^^^^^^^^^^^^^
+[4 of 8] Compiling Data.HashMap.UnsafeShift ( Data/HashMap/UnsafeShift.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/UnsafeShift.o )
+[5 of 8] Compiling Data.HashMap.Base ( Data/HashMap/Base.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Base.o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: two
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: two
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [12229, 893, 98, 2]
+    Size = {terms: 20,787,
+            types: 37,081,
+            coercions: 1,927,
+            joins: 41/444}
+[6 of 8] Compiling Data.HashMap.Strict ( Data/HashMap/Strict.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Strict.o )
+[7 of 8] Compiling Data.HashMap.Lazy ( Data/HashMap/Lazy.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Lazy.o )
+[8 of 8] Compiling Data.HashSet     ( Data/HashSet.hs, dist/dist-sandbox-1351b966/build/Data/HashSet.o )
+[1 of 8] Compiling Data.HashMap.List ( Data/HashMap/List.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/List.p_o )
+[2 of 8] Compiling Data.HashMap.Unsafe ( Data/HashMap/Unsafe.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Unsafe.p_o )
+[3 of 8] Compiling Data.HashMap.Array ( Data/HashMap/Array.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Array.p_o )
+
+Data/HashMap/Array.hs:89:1-9: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      newArray# :: ghc-prim-0.5.3:GHC.Prim.Int#
+                   -> a
+                   -> ghc-prim-0.5.3:GHC.Prim.State# d
+                   -> (# ghc-prim-0.5.3:GHC.Prim.State# d, SmallMutableArray# d a #)
+   |
+89 | newArray# = newSmallArray#
+   | ^^^^^^^^^
+
+Data/HashMap/Array.hs:90:1-10: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      readArray# :: SmallMutableArray# d a
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.State# d
+                    -> (# ghc-prim-0.5.3:GHC.Prim.State# d, a #)
+   |
+90 | readArray# = readSmallArray#
+   | ^^^^^^^^^^
+
+Data/HashMap/Array.hs:91:1-11: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      writeArray# :: SmallMutableArray# d a
+                     -> ghc-prim-0.5.3:GHC.Prim.Int#
+                     -> a
+                     -> ghc-prim-0.5.3:GHC.Prim.State# d
+                     -> ghc-prim-0.5.3:GHC.Prim.State# d
+   |
+91 | writeArray# = writeSmallArray#
+   | ^^^^^^^^^^^
+
+Data/HashMap/Array.hs:92:1-11: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      indexArray# :: SmallArray# a
+                     -> ghc-prim-0.5.3:GHC.Prim.Int# -> (# a #)
+   |
+92 | indexArray# = indexSmallArray#
+   | ^^^^^^^^^^^
+
+Data/HashMap/Array.hs:93:1-18: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      unsafeFreezeArray# :: SmallMutableArray# d a
+                            -> ghc-prim-0.5.3:GHC.Prim.State# d
+                            -> (# ghc-prim-0.5.3:GHC.Prim.State# d, SmallArray# a #)
+   |
+93 | unsafeFreezeArray# = unsafeFreezeSmallArray#
+   | ^^^^^^^^^^^^^^^^^^
+
+Data/HashMap/Array.hs:94:1-16: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      unsafeThawArray# :: SmallArray# a
+                          -> ghc-prim-0.5.3:GHC.Prim.State# d
+                          -> (# ghc-prim-0.5.3:GHC.Prim.State# d, SmallMutableArray# d a #)
+   |
+94 | unsafeThawArray# = unsafeThawSmallArray#
+   | ^^^^^^^^^^^^^^^^
+
+Data/HashMap/Array.hs:95:1-12: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      sizeofArray# :: SmallArray# a -> ghc-prim-0.5.3:GHC.Prim.Int#
+   |
+95 | sizeofArray# = sizeofSmallArray#
+   | ^^^^^^^^^^^^
+
+Data/HashMap/Array.hs:96:1-10: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      copyArray# :: SmallArray# a
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> SmallMutableArray# d a
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.State# d
+                    -> ghc-prim-0.5.3:GHC.Prim.State# d
+   |
+96 | copyArray# = copySmallArray#
+   | ^^^^^^^^^^
+
+Data/HashMap/Array.hs:97:1-10: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      thawArray# :: SmallArray# a
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.Int#
+                    -> ghc-prim-0.5.3:GHC.Prim.State# d
+                    -> (# ghc-prim-0.5.3:GHC.Prim.State# d, SmallMutableArray# d a #)
+   |
+97 | thawArray# = thawSmallArray#
+   | ^^^^^^^^^^
+
+Data/HashMap/Array.hs:98:1-19: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      sizeofMutableArray# :: SmallMutableArray# d a
+                             -> ghc-prim-0.5.3:GHC.Prim.Int#
+   |
+98 | sizeofMutableArray# = sizeofSmallMutableArray#
+   | ^^^^^^^^^^^^^^^^^^^
+
+Data/HashMap/Array.hs:99:1-17: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      copyMutableArray# :: SmallMutableArray# d a
+                           -> ghc-prim-0.5.3:GHC.Prim.Int#
+                           -> SmallMutableArray# d a
+                           -> ghc-prim-0.5.3:GHC.Prim.Int#
+                           -> ghc-prim-0.5.3:GHC.Prim.Int#
+                           -> ghc-prim-0.5.3:GHC.Prim.State# d
+                           -> ghc-prim-0.5.3:GHC.Prim.State# d
+   |
+99 | copyMutableArray# = copySmallMutableArray#
+   | ^^^^^^^^^^^^^^^^^
+[4 of 8] Compiling Data.HashMap.UnsafeShift ( Data/HashMap/UnsafeShift.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/UnsafeShift.p_o )
+[5 of 8] Compiling Data.HashMap.Base ( Data/HashMap/Base.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Base.p_o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: two
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: two
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [11457, 878, 128, 2]
+    Size = {terms: 21,700,
+            types: 37,440,
+            coercions: 2,116,
+            joins: 41/476}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X8Y]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X8Y]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X8Y]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X8Y]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X8Y]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X8Y]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sGhZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X8Y]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo1_sFMy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo1_sFMf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo1_sUEp]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo1_sUF8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit1_sUE1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_sUDT]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo1_sTfH]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo1_sTeR]
+[6 of 8] Compiling Data.HashMap.Strict ( Data/HashMap/Strict.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Strict.p_o )
+[7 of 8] Compiling Data.HashMap.Lazy ( Data/HashMap/Lazy.hs, dist/dist-sandbox-1351b966/build/Data/HashMap/Lazy.p_o )
+[8 of 8] Compiling Data.HashSet     ( Data/HashSet.hs, dist/dist-sandbox-1351b966/build/Data/HashSet.p_o )
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/unordered-containers-0.2.9.0-BlRTn4hh0NPKhL8j6rsxGU
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29910/unordered-containers-0.2.9.0'

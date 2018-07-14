@@ -1,0 +1,12 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29910/js-flot-0.8.3'
+Configuring js-flot-0.8.3...
+Preprocessing library for js-flot-0.8.3..
+Building library for js-flot-0.8.3..
+[1 of 2] Compiling Paths_js_flot    ( dist/dist-sandbox-1351b966/build/autogen/Paths_js_flot.hs, dist/dist-sandbox-1351b966/build/Paths_js_flot.o )
+[2 of 2] Compiling Language.Javascript.Flot ( Language/Javascript/Flot.hs, dist/dist-sandbox-1351b966/build/Language/Javascript/Flot.o )
+[1 of 2] Compiling Paths_js_flot    ( dist/dist-sandbox-1351b966/build/autogen/Paths_js_flot.hs, dist/dist-sandbox-1351b966/build/Paths_js_flot.p_o )
+[2 of 2] Compiling Language.Javascript.Flot ( Language/Javascript/Flot.hs, dist/dist-sandbox-1351b966/build/Language/Javascript/Flot.p_o )
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/js-flot-0.8.3-DsEWvBnuEiwDNkySyr4bmK
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29910/js-flot-0.8.3'

@@ -1,0 +1,1822 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/mwc-random-0.13.6.0'
+Configuring mwc-random-0.13.6.0...
+Preprocessing library for mwc-random-0.13.6.0..
+Building library for mwc-random-0.13.6.0..
+[1 of 3] Compiling System.Random.MWC ( System/Random/MWC.hs, dist/dist-sandbox-1351b966/build/System/Random/MWC.o )
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [7800, 1161, 360, 163]
+    Size = {terms: 16,876,
+            types: 18,242,
+            coercions: 4,274,
+            joins: 12/612}
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_sgpC 2
+          [<L,U(U)>]
+[2 of 3] Compiling System.Random.MWC.CondensedTable ( System/Random/MWC/CondensedTable.hs, dist/dist-sandbox-1351b966/build/System/Random/MWC/CondensedTable.o )
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int64"
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_aZ6o 2 1 1
+  \ (@ (m_aZ6q :: * -> *)) ($dMonad_aZ6r :: Monad m_aZ6q) ->
+    filterM
+      @ m_aZ6q
+      @ (a_aYz2, Word32)
+      $dMonad_aZ6r
+      (let {
+         f1_aZuP :: Bool -> m_aZ6q Bool
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_aZuP = return @ m_aZ6q $dMonad_aZ6r @ Bool } in
+       \ (x_aZuQ :: (a_aYz2, Word32)) ->
+         f1_aZuP
+           (neWord32
+              (case x_aZuQ of { (ds1_aZ6E, y_aZ6F) -> y_aZ6F }) ds_dZ6y))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_aZ6o 2 1 1
+  \ (@ (m_aZ6q :: * -> *)) ($dMonad_aZ6r :: Monad m_aZ6q) ->
+    filterM
+      @ m_aZ6q
+      @ (a_aYEY, Double)
+      $dMonad_aZ6r
+      (let {
+         f1_aZuP :: Bool -> m_aZ6q Bool
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_aZuP = return @ m_aZ6q $dMonad_aZ6r @ Bool } in
+       \ (x_aZuQ :: (a_aYEY, Double)) ->
+         f1_aZuP
+           (case snd @ a_aYEY @ Double x_aZuQ of { D# x_aZHz ->
+            tagToEnum# @ Bool (>## x_aZHz 0.0##)
+            }))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_aZ7d 2 1 1
+  \ (@ (m_aZ7f :: * -> *)) ($dMonad_aZ7g :: Monad m_aZ7f) ->
+    mapM
+      @ m_aZ7f
+      @ (a_aYEY, Double)
+      @ (a_aYEY, Word32)
+      $dMonad_aZ7g
+      (let {
+         f1_aZKd :: (a_aYEY, Word32) -> m_aZ7f (a_aYEY, Word32)
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_aZKd = return @ m_aZ7f $dMonad_aZ7g @ (a_aYEY, Word32) } in
+       \ (x_aZKe :: (a_aYEY, Double)) ->
+         f1_aZKd
+           (case x_aZKe of { (x_aZJY, y_aZJZ) -> x_aZJY },
+            g_aZJU (case x_aZKe of { (x_aZK3, y_aZK4) -> y_aZK4 })))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_aZ7d 2 1 1
+  \ (@ (m_aZ7f :: * -> *)) ($dMonad_aZ7g :: Monad m_aZ7f) ->
+    mapM
+      @ m_aZ7f
+      @ (a_aYJj, Double)
+      @ (a_aYJj, Double)
+      $dMonad_aZ7g
+      (let {
+         f1_aZKd :: (a_aYJj, Double) -> m_aZ7f (a_aYJj, Double)
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_aZKd = return @ m_aZ7f $dMonad_aZ7g @ (a_aYJj, Double) } in
+       \ (x_aZKe :: (a_aYJj, Double)) ->
+         f1_aZKd
+           (case x_aZKe of { (x_aZJY, y_aZJZ) -> x_aZJY },
+            g_aZJU (case x_aZKe of { (x_aZK3, y_aZK4) -> y_aZK4 })))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_aZ6o 2 1 1
+  \ (@ (m_aZ6q :: * -> *)) ($dMonad_aZ6r :: Monad m_aZ6q) ->
+    filterM
+      @ m_aZ6q
+      @ (a_aYJj, Double)
+      $dMonad_aZ6r
+      (let {
+         f1_aZuP :: Bool -> m_aZ6q Bool
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_aZuP = return @ m_aZ6q $dMonad_aZ6r @ Bool } in
+       \ (x_aZuQ :: (a_aYJj, Double)) ->
+         f1_aZuP
+           (case snd @ a_aYJj @ Double x_aZuQ of { D# x_aZHz ->
+            tagToEnum# @ Bool (>## x_aZHz 0.0##)
+            }))
+WARNING: file compiler/simplCore/OccurAnal.hs, line 73
+  Glomming in System.Random.MWC.CondensedTable:
+    [s10Sq :->, s10Ww :->, s10WC :->, s10WJ :->, s10WS :->, s10WZ :->,
+     s10X7 :->, s10Xg :->, s10Xq :->, s10Xz :->, s10XJ :->, s10XS :->,
+     s10Y2 :->, s10Yb :->, s10Yl :->, s10Yu :->, s10YE :->, s10YN :->,
+     s10YX :->, s10Z6 :->, s10Zg :->, s10Zp :->, s10Zz :->, s10ZI :->,
+     s10ZS :->, s1101 :->, s110b :->, s110m :->, s110y :->, s110J :->,
+     s110V :->, s1111 :->, s1118 :->, s111g :->, s111n :->, s111v :->,
+     s111E :->, s111O :->, s111Z :->, s112o :->, s112p :->, s112q :->]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [13414, 338, 30, 3]
+    Size = {terms: 13,936,
+            types: 19,117,
+            coercions: 4,353,
+            joins: 14/284}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 73
+  Glomming in System.Random.MWC.CondensedTable:
+    [s10JA :->, s10Kc :->, s10KH :->]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [34892, 4471, 584, 52]
+    Size = {terms: 20,076,
+            types: 32,539,
+            coercions: 8,909,
+            joins: 13/483}
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_s10Gm 2
+           [<L,U(U)>]
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_s10GW 2
+           [<L,U(U)>]
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_s10Hr 2
+           [<L,U(U)>]
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_s10HX 2
+           [<L,U(U)>]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [5125, 264, 17, 2]
+    Size = {terms: 18,165,
+            types: 32,500,
+            coercions: 7,507,
+            joins: 115/299}
+[3 of 3] Compiling System.Random.MWC.Distributions ( System/Random/MWC/Distributions.hs, dist/dist-sandbox-1351b966/build/System/Random/MWC/Distributions.o )
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_a1vKn 2 1 1
+  \ (@ (m_a1vKp :: * -> *)) ($dMonad_a1vKq :: Monad m_a1vKp) ->
+    scanl1M'
+      @ m_a1vKp
+      @ Double
+      $dMonad_a1vKq
+      (\ (x_a1w4U :: Double) (y_a1w4V :: Double) ->
+         return
+           @ m_a1vKp
+           $dMonad_a1vKq
+           @ Double
+           (case x_a1w4U of { D# x_aaYO ->
+            case y_a1w4V of { D# y_aaYS -> D# (+## x_aaYO y_aaYS) }
+            }))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_aZ7d 2 1 1
+  \ (@ (m_aZ7f :: * -> *)) ($dMonad_aZ7g :: Monad m_aZ7f) ->
+    mapM
+      @ m_aZ7f
+      @ Double
+      @ Double
+      $dMonad_aZ7g
+      (let {
+         f1_aZKd :: Double -> m_aZ7f Double
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_aZKd = return @ m_aZ7f $dMonad_aZ7g @ Double } in
+       \ (x_aZKe :: Double) ->
+         f1_aZKd
+           (case minusDouble
+                   x_aZKe
+                   (g_s1waO `cast` (N:Id[0] <Double>_R :: Id Double ~R# Double))
+            of
+            { D# x_aZQX ->
+            D# (expDouble# x_aZQX)
+            }))
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [7364, 1566, 836, 332]
+    Size = {terms: 27,912,
+            types: 25,605,
+            coercions: 6,338,
+            joins: 15/1,285}
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_s1BFO 2
+           [<L,U(U)>]
+
+on the commandline: warning:
+    -auto-all is deprecated: Use -fprof-auto instead
+[1 of 3] Compiling System.Random.MWC ( System/Random/MWC.hs, dist/dist-sandbox-1351b966/build/System/Random/MWC.p_o )
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_ab4s]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_ab4s]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sgAq]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sgyN]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sgxO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sguz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sgtf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sgYH]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sgX8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sgSZ]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [7382, 377, 116, 33]
+    Size = {terms: 9,764,
+            types: 10,934,
+            coercions: 1,876,
+            joins: 16/200}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shyT]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_sdFo 2
+          [<L,U(U)>]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$weq_loop0_skBX]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$weq_loop0_skBX]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shyT]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$weq_loop0_skBX]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shyT]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shyT]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shMd]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shHw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$weq_loop0_skBX]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_Xd6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shAI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shyT]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j2_snG6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j2_snCi]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j2_sntm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$weq_loop0_snhm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_snhj]
+[2 of 3] Compiling System.Random.MWC.CondensedTable ( System/Random/MWC/CondensedTable.hs, dist/dist-sandbox-1351b966/build/System/Random/MWC/CondensedTable.p_o )
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Int64"
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_awkh 2 1 1
+  \ (@ (m_awkj :: * -> *)) ($dMonad_awkk :: Monad m_awkj) ->
+    filterM
+      @ m_awkj
+      @ (a_avMT, Word32)
+      $dMonad_awkk
+      (let {
+         f1_awzD :: Bool -> m_awkj Bool
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_awzD = return @ m_awkj $dMonad_awkk @ Bool } in
+       \ (x_awzE :: (a_avMT, Word32)) ->
+         f1_awzD
+           (neWord32
+              (case x_awzE of { (ds1_awkx, y_awky) -> y_awky }) ds_dwkr))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_awkh 2 1 1
+  \ (@ (m_awkj :: * -> *)) ($dMonad_awkk :: Monad m_awkj) ->
+    filterM
+      @ m_awkj
+      @ (a_avSP, Double)
+      $dMonad_awkk
+      (let {
+         f1_awzD :: Bool -> m_awkj Bool
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_awzD = return @ m_awkj $dMonad_awkk @ Bool } in
+       \ (x_awzE :: (a_avSP, Double)) ->
+         f1_awzD
+           (case snd @ a_avSP @ Double x_awzE of { D# x_awMn ->
+            tagToEnum# @ Bool (>## x_awMn 0.0##)
+            }))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_awl6 2 1 1
+  \ (@ (m_awl8 :: * -> *)) ($dMonad_awl9 :: Monad m_awl8) ->
+    mapM
+      @ m_awl8
+      @ (a_avSP, Double)
+      @ (a_avSP, Word32)
+      $dMonad_awl9
+      (let {
+         f1_awP1 :: (a_avSP, Word32) -> m_awl8 (a_avSP, Word32)
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_awP1 = return @ m_awl8 $dMonad_awl9 @ (a_avSP, Word32) } in
+       \ (x_awP2 :: (a_avSP, Double)) ->
+         f1_awP1
+           (case x_awP2 of { (x_awOM, y_awON) -> x_awOM },
+            g_awOI (case x_awP2 of { (x_awOR, y_awOS) -> y_awOS })))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_awl6 2 1 1
+  \ (@ (m_awl8 :: * -> *)) ($dMonad_awl9 :: Monad m_awl8) ->
+    mapM
+      @ m_awl8
+      @ (a_avXa, Double)
+      @ (a_avXa, Double)
+      $dMonad_awl9
+      (let {
+         f1_awP1 :: (a_avXa, Double) -> m_awl8 (a_avXa, Double)
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_awP1 = return @ m_awl8 $dMonad_awl9 @ (a_avXa, Double) } in
+       \ (x_awP2 :: (a_avXa, Double)) ->
+         f1_awP1
+           (case x_awP2 of { (x_awOM, y_awON) -> x_awOM },
+            g_awOI (case x_awP2 of { (x_awOR, y_awOS) -> y_awOS })))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_awkh 2 1 1
+  \ (@ (m_awkj :: * -> *)) ($dMonad_awkk :: Monad m_awkj) ->
+    filterM
+      @ m_awkj
+      @ (a_avXa, Double)
+      $dMonad_awkk
+      (let {
+         f1_awzD :: Bool -> m_awkj Bool
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_awzD = return @ m_awkj $dMonad_awkk @ Bool } in
+       \ (x_awzE :: (a_avXa, Double)) ->
+         f1_awzD
+           (case snd @ a_avXa @ Double x_awzE of { D# x_awMn ->
+            tagToEnum# @ Bool (>## x_awMn 0.0##)
+            }))
+WARNING: file compiler/simplCore/OccurAnal.hs, line 73
+  Glomming in System.Random.MWC.CondensedTable:
+    [sxTV :->, sxY1 :->, sxY7 :->, sxYe :->, sxYn :->, sxYu :->,
+     sxYC :->, sxYL :->, sxYV :->, sxZ4 :->, sxZe :->, sxZn :->,
+     sxZx :->, sxZG :->, sxZQ :->, sxZZ :->, sy09 :->, sy0i :->,
+     sy0s :->, sy0B :->, sy0L :->, sy0U :->, sy14 :->, sy1d :->,
+     sy1n :->, sy1w :->, sy1G :->, sy1R :->, sy23 :->, sy2e :->,
+     sy2q :->, sy2w :->, sy2D :->, sy2L :->, sy2S :->, sy30 :->,
+     sy39 :->, sy3j :->, sy3u :->, sy3T :->, sy3U :->, sy3V :->]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [13810, 374, 30, 3]
+    Size = {terms: 14,865,
+            types: 19,917,
+            coercions: 4,335,
+            joins: 38/319}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDiN]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCUY]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 73
+  Glomming in System.Random.MWC.CondensedTable:
+    [sxL6 :->, sxLI :->, sxMd :->]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCUY]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDiN]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEoc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEmP]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEuy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEu1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEt4]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sErW]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sErq]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEr7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEqN]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEpq]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEkX]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEkA]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sElK]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sElo]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEjV]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEjK]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEjz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEjg]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEiU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEbT]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEaw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEif]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEhI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEgL]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEfD]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEf7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEeO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEeu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sEd7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE8k]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE9n]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE9f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE6O]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE6D]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE6s]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE4q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE2k]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE1V]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sE0s]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDZ5]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDYo]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDVl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDTf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDSQ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDRn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDOt]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDMn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDLY]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [37574, 4265, 883, 190]
+    Size = {terms: 22,554,
+            types: 34,687,
+            coercions: 8,733,
+            joins: 80/607}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGju]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGkH]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGb9]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGcm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG1F]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG5W]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG2b]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG2X]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sFWt]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sFXf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sFSc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHr8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHz9]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyr]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHx7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHow]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfC]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHnI]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHn0]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHlG]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG5W]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sH8j]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sH7O]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sH70]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sH1m]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sH0R]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sH03]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGVa]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGUF]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGTR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG5W]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDhb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCTm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG5W]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHcs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHeH]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG5W]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGNM]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGI2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFv]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDhb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [foldlM'_loop_awvY]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKN7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCTm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [foldlM'_loop_awvY]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKIn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG5W]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDhb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [foldlM'_loop_awvY]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKN7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCTm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [foldlM'_loop_awvY]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKIn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG5W]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_sxHS 2
+          [<L,U(U)>]
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_sxIs 2
+          [<L,U(U)>]
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_sxIX 2
+          [<L,U(U)>]
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_sxJt 2
+          [<L,U(U)>]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDhb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMYs,
+                                                 foldlM'_loop_awvY]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKN7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCTm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMUL,
+                                                 foldlM'_loop_awvY]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKIn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG5W]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMYs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKN7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDhb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sMW2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMUL]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKIn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCTm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sG5W]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_sMQ3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_sMLb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_sMGM]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMYs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKN7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDhb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sMW2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHcs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMUL]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKIn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCTm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_sMQ3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_sMLb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_sMGM]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGNM]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGI2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFv]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMYs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKN7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDhb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sMW2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHcs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMUL]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKIn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCTm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_sMQ3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_sMLb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_sMGM]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGNM]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGI2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFv]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [3988, 310, 46, 7]
+    Size = {terms: 20,802,
+            types: 35,847,
+            coercions: 7,332,
+            joins: 121/371}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sMW2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHcs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGNM]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGI2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFv]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMYs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKN7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDhb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sMW2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHcs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMUL]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKIn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCTm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMT3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGNM]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGI2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFv]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHqu]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMYs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKN7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sDhb]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHyl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sMW2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHdh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHd8]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHcs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHfn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMUL]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sKIn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sCTm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sHmU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sMT3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGOs]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGNM]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGLf]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGIR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGII]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGI2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sGFv]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j1_sUF3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sUAa]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j2_sUzk]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j3_sUBq]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j3_sUCB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sUdX]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j5_sUeN]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j6_sUeZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j3_sUej]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j4_sUiy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j5_sUiK]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sUoT]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j2_sUo3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j3_sUq9]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j3_sUrk]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wfoldlM'_loop_sU2A]
+[3 of 3] Compiling System.Random.MWC.Distributions ( System/Random/MWC/Distributions.hs, dist/dist-sandbox-1351b966/build/System/Random/MWC/Distributions.p_o )
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_a14iR 2 1 1
+  \ (@ (m_a14iT :: * -> *)) ($dMonad_a14iU :: Monad m_a14iT) ->
+    scanl1M'
+      @ m_a14iT
+      @ Double
+      $dMonad_a14iU
+      (\ (x_a14se :: Double) (y_a14sf :: Double) ->
+         return
+           @ m_a14iT
+           $dMonad_a14iU
+           @ Double
+           (case x_a14se of { D# x_ab8A ->
+            case y_a14sf of { D# y_ab8E -> D# (+## x_ab8A y_ab8E) }
+            }))
+WARNING: file compiler/simplCore/SimplUtils.hs, line 1523
+  Arity decrease: f1_awl6 2 1 1
+  \ (@ (m_awl8 :: * -> *)) ($dMonad_awl9 :: Monad m_awl8) ->
+    mapM
+      @ m_awl8
+      @ Double
+      @ Double
+      $dMonad_awl9
+      (let {
+         f1_awP1 :: Double -> m_awl8 Double
+         [LclId,
+          Unf=Unf{Src=<vanilla>, TopLvl=False, Value=False, ConLike=False,
+                  WorkFree=False, Expandable=True, Guidance=IF_ARGS [] 20 0}]
+         f1_awP1 = return @ m_awl8 $dMonad_awl9 @ Double } in
+       \ (x_awP2 :: Double) ->
+         f1_awP1
+           (case minusDouble
+                   x_awP2
+                   (g_s14vE `cast` (N:Id[0] <Double>_R :: Id Double ~R# Double))
+            of
+            { D# x_awVI ->
+            D# (expDouble# x_awVI)
+            }))
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [3827, 255, 12, 1]
+    Size = {terms: 6,284, types: 5,099, coercions: 502, joins: 15/300}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s17Vk]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s17V1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s17SQ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_abTZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s17TT]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s17PU]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s17OO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s17NF]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s17LG]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19bc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19ca]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19aq]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19bc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19ca]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19bc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19ca]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19bc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190G]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19bc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19ca]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19bc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19ca]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19bc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19ca]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/stranal/WorkWrap.hs, line 495
+  $j_s15DM 2
+           [<L,U(U)>]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19bc]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19ca]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_awXm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s1983]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s195X]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_awXm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s1983]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s195X]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190G]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190G]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_awXm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s1983]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s195X]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190G]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s19dJ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_awXm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s1983]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s195X]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190Z]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s190G]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s1eL2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s1eKO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s1eEh]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_s1eAV]
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/mwc-random-0.13.6.0-FVW5bFquGCQAbgYji53mns
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/mwc-random-0.13.6.0'

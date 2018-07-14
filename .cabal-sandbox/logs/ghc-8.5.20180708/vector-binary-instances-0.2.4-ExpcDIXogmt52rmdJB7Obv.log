@@ -1,0 +1,22 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/vector-binary-instances-0.2.4'
+Configuring vector-binary-instances-0.2.4...
+Preprocessing library for vector-binary-instances-0.2.4..
+Building library for vector-binary-instances-0.2.4..
+[1 of 1] Compiling Data.Vector.Binary ( Data/Vector/Binary.hs, dist/dist-sandbox-1351b966/build/Data/Vector/Binary.o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [334, 33, 18, 24]
+    Size = {terms: 2,120, types: 3,047, coercions: 728, joins: 1/87}
+[1 of 1] Compiling Data.Vector.Binary ( Data/Vector/Binary.hs, dist/dist-sandbox-1351b966/build/Data/Vector/Binary.p_o )
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sdo2]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sdod]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sdod]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [334, 33, 18, 24]
+    Size = {terms: 2,120, types: 3,047, coercions: 728, joins: 1/87}
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/vector-binary-instances-0.2.4-ExpcDIXogmt52rmdJB7Obv
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/vector-binary-instances-0.2.4'

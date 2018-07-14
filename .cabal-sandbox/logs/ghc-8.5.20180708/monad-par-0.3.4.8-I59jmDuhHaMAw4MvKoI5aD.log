@@ -1,0 +1,256 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/monad-par-0.3.4.8'
+Configuring monad-par-0.3.4.8...
+Preprocessing library for monad-par-0.3.4.8..
+Building library for monad-par-0.3.4.8..
+[1 of 7] Compiling Control.Monad.Par.Scheds.DirectInternal ( Control/Monad/Par/Scheds/DirectInternal.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/DirectInternal.o )
+WARNING: file compiler/simplCore/OccurAnal.hs, line 73
+  Glomming in Control.Monad.Par.Scheds.DirectInternal:
+    [s731 :->, s736 :->, s73a :->, s73d :->, s73f :->, s73k :->]
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fApplicativePar True False
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fApplicativePar True False
+[2 of 7] Compiling Control.Monad.Par.Scheds.Direct ( Control/Monad/Par/Scheds/Direct.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/Direct.o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [8056, 700, 71, 4]
+    Size = {terms: 4,440, types: 7,408, coercions: 4,077, joins: 2/103}
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [2554, 146, 24, 7]
+    Size = {terms: 5,399,
+            types: 8,178,
+            coercions: 3,329,
+            joins: 11/154}
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [1442, 89, 13, 9]
+    Size = {terms: 3,970, types: 6,428, coercions: 3,264, joins: 7/130}
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [114, 76, 19, 1]
+    Size = {terms: 4,088,
+            types: 6,433,
+            coercions: 3,191,
+            joins: 10/140}
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [273, 19, 6, 4]
+    Size = {terms: 5,007,
+            types: 7,040,
+            coercions: 3,950,
+            joins: 32/147}
+[3 of 7] Compiling Control.Monad.Par.Scheds.Sparks ( Control/Monad/Par/Scheds/Sparks.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/Sparks.o )
+[4 of 7] Compiling Control.Monad.Par.Scheds.TraceInternal ( Control/Monad/Par/Scheds/TraceInternal.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/TraceInternal.o )
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fApplicativePar True False
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fApplicativePar True False
+[5 of 7] Compiling Control.Monad.Par.Scheds.Trace ( Control/Monad/Par/Scheds/Trace.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/Trace.o )
+[6 of 7] Compiling Control.Monad.Par ( Control/Monad/Par.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par.o )
+[7 of 7] Compiling Control.Monad.Par.IO ( Control/Monad/Par/IO.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/IO.o )
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fApplicativeParIO True False
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fApplicativeParIO True False
+[1 of 7] Compiling Control.Monad.Par.Scheds.DirectInternal ( Control/Monad/Par/Scheds/DirectInternal.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/DirectInternal.p_o )
+WARNING: file compiler/simplCore/OccurAnal.hs, line 73
+  Glomming in Control.Monad.Par.Scheds.DirectInternal:
+    [s73c :->, s73h :->, s73l :->, s73o :->, s73q :->, s73v :->]
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fApplicativePar True False
+[2 of 7] Compiling Control.Monad.Par.Scheds.Direct ( Control/Monad/Par/Scheds/Direct.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/Direct.p_o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [7612, 641, 81, 2]
+    Size = {terms: 3,731, types: 6,657, coercions: 3,791, joins: 2/89}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh4K]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh4K]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [2737, 266, 46, 4]
+    Size = {terms: 5,451, types: 8,513, coercions: 3,455, joins: 9/148}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh4K]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [1411, 67, 7, 4]
+    Size = {terms: 3,962, types: 6,538, coercions: 3,395, joins: 6/122}
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [93, 48, 18, 1]
+    Size = {terms: 3,983, types: 6,492, coercions: 3,320, joins: 9/128}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_siHR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_siHR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_siHR]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_Xjbn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sjCO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_Xjbn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sjCO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_Xjbn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sjCO]
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [178, 7, 3, 2]
+    Size = {terms: 4,146,
+            types: 6,719,
+            coercions: 3,553,
+            joins: 18/121}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_Xjbn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_Xjbn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sjCO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 73
+  Glomming in Control.Monad.Par.Scheds.Direct: [sgJz :->]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_Xjbn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_Xjbn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sjCO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sjCO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_Xjbn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_Xjbn]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj4u]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4Q]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_X4T]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo1_skPm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_skOm]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit1_skO7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_skO4]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo1_skLj]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_skKj]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit1_skK4]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [exit_skK1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j1_skC8]
+[3 of 7] Compiling Control.Monad.Par.Scheds.Sparks ( Control/Monad/Par/Scheds/Sparks.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/Sparks.p_o )
+[4 of 7] Compiling Control.Monad.Par.Scheds.TraceInternal ( Control/Monad/Par/Scheds/TraceInternal.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/TraceInternal.p_o )
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_XpGK]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_XpGK]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_XpGK]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_spA3]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go2_sqHN]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go1_sqHo]
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fApplicativePar True False
+[5 of 7] Compiling Control.Monad.Par.Scheds.Trace ( Control/Monad/Par/Scheds/Trace.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/Scheds/Trace.p_o )
+[6 of 7] Compiling Control.Monad.Par ( Control/Monad/Par.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par.p_o )
+[7 of 7] Compiling Control.Monad.Par.IO ( Control/Monad/Par/IO.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Par/IO.p_o )
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fApplicativeParIO True False
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/monad-par-0.3.4.8-I59jmDuhHaMAw4MvKoI5aD
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/monad-par-0.3.4.8'

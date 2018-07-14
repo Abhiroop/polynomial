@@ -1,0 +1,78 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/hashable-1.2.7.0'
+Configuring hashable-1.2.7.0...
+Preprocessing library for hashable-1.2.7.0..
+Building library for hashable-1.2.7.0..
+[1 of 4] Compiling Data.Hashable.Class ( Data/Hashable/Class.hs, dist/dist-sandbox-1351b966/build/Data/Hashable/Class.o )
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/a->Word64"
+  Rule 2: "fromIntegral/Int64->a"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/a->Word64"
+  Rule 2: "fromIntegral/Int64->a"
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [2633, 607, 24, 1]
+    Size = {terms: 4,745, types: 7,066, coercions: 739, joins: 0/23}
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: unhashed
+[2 of 4] Compiling Data.Hashable.Generic ( Data/Hashable/Generic.hs, dist/dist-sandbox-1351b966/build/Data/Hashable/Generic.o )
+[3 of 4] Compiling Data.Hashable    ( Data/Hashable.hs, dist/dist-sandbox-1351b966/build/Data/Hashable.o )
+[4 of 4] Compiling Data.Hashable.Lifted ( Data/Hashable/Lifted.hs, dist/dist-sandbox-1351b966/build/Data/Hashable/Lifted.o )
+[1 of 4] Compiling Data.Hashable.Class ( Data/Hashable/Class.hs, dist/dist-sandbox-1351b966/build/Data/Hashable/Class.p_o )
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/a->Word64"
+  Rule 2: "fromIntegral/Int64->a"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/a->Word64"
+  Rule 2: "fromIntegral/Int64->a"
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [2584, 442, 25, 1]
+    Size = {terms: 4,677, types: 6,936, coercions: 720, joins: 0/57}
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfnV]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfmO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfmG]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfmy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfnV]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfmO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfmG]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfmy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sfPv]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sfON]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfnV]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfmO]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfmG]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sfmy]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sfPv]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sfON]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sfON]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sfON]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sfON]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sfON]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shKB]
+[2 of 4] Compiling Data.Hashable.Generic ( Data/Hashable/Generic.hs, dist/dist-sandbox-1351b966/build/Data/Hashable/Generic.p_o )
+[3 of 4] Compiling Data.Hashable    ( Data/Hashable.hs, dist/dist-sandbox-1351b966/build/Data/Hashable.p_o )
+[4 of 4] Compiling Data.Hashable.Lifted ( Data/Hashable/Lifted.hs, dist/dist-sandbox-1351b966/build/Data/Hashable/Lifted.p_o )
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/hashable-1.2.7.0-6X6hWCF1nZYEJSGK7WzmHX
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/hashable-1.2.7.0'

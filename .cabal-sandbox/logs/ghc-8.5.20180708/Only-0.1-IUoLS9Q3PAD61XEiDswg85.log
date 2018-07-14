@@ -1,0 +1,10 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29908/Only-0.1'
+Configuring Only-0.1...
+Preprocessing library for Only-0.1..
+Building library for Only-0.1..
+[1 of 1] Compiling Data.Tuple.Only  ( src/Data/Tuple/Only.hs, dist/dist-sandbox-1351b966/build/Data/Tuple/Only.o )
+[1 of 1] Compiling Data.Tuple.Only  ( src/Data/Tuple/Only.hs, dist/dist-sandbox-1351b966/build/Data/Tuple/Only.p_o )
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/Only-0.1-IUoLS9Q3PAD61XEiDswg85
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29908/Only-0.1'

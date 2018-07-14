@@ -1,0 +1,734 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29911/cereal-0.5.5.0'
+Configuring cereal-0.5.5.0...
+Preprocessing library for cereal-0.5.5.0..
+Building library for cereal-0.5.5.0..
+[1 of 4] Compiling Data.Serialize.Get ( src/Data/Serialize/Get.hs, dist/dist-sandbox-1351b966/build/Data/Serialize/Get.o )
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [6802, 616, 55, 2]
+    Size = {terms: 12,170,
+            types: 11,690,
+            coercions: 822,
+            joins: 35/249}
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [2575, 1260, 117, 1]
+    Size = {terms: 11,642,
+            types: 11,190,
+            coercions: 629,
+            joins: 35/173}
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fFunctorGet True False
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fFunctorGet True False
+[2 of 4] Compiling Data.Serialize.Put ( src/Data/Serialize/Put.hs, dist/dist-sandbox-1351b966/build/Data/Serialize/Put.o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [2002, 415, 3, 12]
+    Size = {terms: 5,348, types: 3,411, coercions: 1,442, joins: 0/66}
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+[3 of 4] Compiling Data.Serialize.IEEE754 ( src/Data/Serialize/IEEE754.hs, dist/dist-sandbox-1351b966/build/Data/Serialize/IEEE754.o )
+[4 of 4] Compiling Data.Serialize   ( src/Data/Serialize.hs, dist/dist-sandbox-1351b966/build/Data/Serialize.o )
+
+src/Data/Serialize.hs:290:9: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘findNr’: Patterns not matched: _ _
+    |
+290 |         findNr lo hi
+    |         ^^^^^^^^^^^^...
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word16->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word16->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word16->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word16->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word8"
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [6257, 1792, 212, 9]
+    Size = {terms: 14,251,
+            types: 14,069,
+            coercions: 1,783,
+            joins: 24/252}
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [4785, 827, 93, 17]
+    Size = {terms: 16,798,
+            types: 14,346,
+            coercions: 2,397,
+            joins: 29/320}
+[1 of 4] Compiling Data.Serialize.Get ( src/Data/Serialize/Get.hs, dist/dist-sandbox-1351b966/build/Data/Serialize/Get.p_o )
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Int64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [2537, 726, 80, 3]
+    Size = {terms: 10,617,
+            types: 10,228,
+            coercions: 604,
+            joins: 35/235}
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 328
+  $fFunctorGet True False
+[2 of 4] Compiling Data.Serialize.Put ( src/Data/Serialize/Put.hs, dist/dist-sandbox-1351b966/build/Data/Serialize/Put.p_o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [1960, 406, 3, 12]
+    Size = {terms: 5,426, types: 3,684, coercions: 1,417, joins: 0/84}
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: putBuilder
+[3 of 4] Compiling Data.Serialize.IEEE754 ( src/Data/Serialize/IEEE754.hs, dist/dist-sandbox-1351b966/build/Data/Serialize/IEEE754.p_o )
+[4 of 4] Compiling Data.Serialize   ( src/Data/Serialize.hs, dist/dist-sandbox-1351b966/build/Data/Serialize.p_o )
+
+src/Data/Serialize.hs:290:9: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘findNr’: Patterns not matched: _ _
+    |
+290 |         findNr lo hi
+    |         ^^^^^^^^^^^^...
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word16->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word16->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word16->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word8"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word8->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word16->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word32->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word64"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word32"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word16"
+Rules.findBest: rule overlap (Rule 1 wins)
+  Rule 1: "fromIntegral/Word64->a"
+  Rule 2: "fromIntegral/a->Word8"
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [5582, 1523, 168, 8]
+    Size = {terms: 14,212,
+            types: 14,361,
+            coercions: 1,856,
+            joins: 22/341}
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [5177, 939, 54, 15]
+    Size = {terms: 16,701,
+            types: 15,313,
+            coercions: 2,723,
+            joins: 27/399}
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/cereal-0.5.5.0-IKAeVFutFPaG5FYBh5KYCi
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29911/cereal-0.5.5.0'

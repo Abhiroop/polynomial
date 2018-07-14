@@ -1,0 +1,12 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/ansi-wl-pprint-0.6.8.2'
+Configuring ansi-wl-pprint-0.6.8.2...
+Preprocessing library for ansi-wl-pprint-0.6.8.2..
+Building library for ansi-wl-pprint-0.6.8.2..
+[1 of 2] Compiling Text.PrettyPrint.ANSI.Leijen.Internal ( Text/PrettyPrint/ANSI/Leijen/Internal.hs, dist/dist-sandbox-1351b966/build/Text/PrettyPrint/ANSI/Leijen/Internal.o )
+[2 of 2] Compiling Text.PrettyPrint.ANSI.Leijen ( Text/PrettyPrint/ANSI/Leijen.hs, dist/dist-sandbox-1351b966/build/Text/PrettyPrint/ANSI/Leijen.o )
+[1 of 2] Compiling Text.PrettyPrint.ANSI.Leijen.Internal ( Text/PrettyPrint/ANSI/Leijen/Internal.hs, dist/dist-sandbox-1351b966/build/Text/PrettyPrint/ANSI/Leijen/Internal.p_o )
+[2 of 2] Compiling Text.PrettyPrint.ANSI.Leijen ( Text/PrettyPrint/ANSI/Leijen.hs, dist/dist-sandbox-1351b966/build/Text/PrettyPrint/ANSI/Leijen.p_o )
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/ansi-wl-pprint-0.6.8.2-7SKEAQhEm8F1lwBAV7qu6e
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/ansi-wl-pprint-0.6.8.2'

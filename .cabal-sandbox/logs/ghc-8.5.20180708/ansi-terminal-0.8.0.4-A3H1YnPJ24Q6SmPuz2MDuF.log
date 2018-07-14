@@ -1,0 +1,16 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29908/ansi-terminal-0.8.0.4'
+Configuring ansi-terminal-0.8.0.4...
+Preprocessing library for ansi-terminal-0.8.0.4..
+Building library for ansi-terminal-0.8.0.4..
+[1 of 4] Compiling System.Console.ANSI.Types ( src/System/Console/ANSI/Types.hs, dist/dist-sandbox-1351b966/build/System/Console/ANSI/Types.o )
+[2 of 4] Compiling System.Console.ANSI.Codes ( src/System/Console/ANSI/Codes.hs, dist/dist-sandbox-1351b966/build/System/Console/ANSI/Codes.o )
+[3 of 4] Compiling System.Console.ANSI.Unix ( src/System/Console/ANSI/Unix.hs, dist/dist-sandbox-1351b966/build/System/Console/ANSI/Unix.o )
+[4 of 4] Compiling System.Console.ANSI ( src/System/Console/ANSI.hs, dist/dist-sandbox-1351b966/build/System/Console/ANSI.o )
+[1 of 4] Compiling System.Console.ANSI.Types ( src/System/Console/ANSI/Types.hs, dist/dist-sandbox-1351b966/build/System/Console/ANSI/Types.p_o )
+[2 of 4] Compiling System.Console.ANSI.Codes ( src/System/Console/ANSI/Codes.hs, dist/dist-sandbox-1351b966/build/System/Console/ANSI/Codes.p_o )
+[3 of 4] Compiling System.Console.ANSI.Unix ( src/System/Console/ANSI/Unix.hs, dist/dist-sandbox-1351b966/build/System/Console/ANSI/Unix.p_o )
+[4 of 4] Compiling System.Console.ANSI ( src/System/Console/ANSI.hs, dist/dist-sandbox-1351b966/build/System/Console/ANSI.p_o )
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/ansi-terminal-0.8.0.4-A3H1YnPJ24Q6SmPuz2MDuF
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29908/ansi-terminal-0.8.0.4'

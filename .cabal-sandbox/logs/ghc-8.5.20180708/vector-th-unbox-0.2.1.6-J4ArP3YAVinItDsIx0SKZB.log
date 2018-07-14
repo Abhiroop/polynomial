@@ -1,0 +1,16 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29908/vector-th-unbox-0.2.1.6'
+Configuring vector-th-unbox-0.2.1.6...
+Preprocessing library for vector-th-unbox-0.2.1.6..
+Building library for vector-th-unbox-0.2.1.6..
+[1 of 1] Compiling Data.Vector.Unboxed.Deriving ( Data/Vector/Unboxed/Deriving.hs, dist/dist-sandbox-1351b966/build/Data/Vector/Unboxed/Deriving.o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [1894, 4, 5, 2]
+    Size = {terms: 2,235, types: 2,303, coercions: 244, joins: 0/65}
+[1 of 1] Compiling Data.Vector.Unboxed.Deriving ( Data/Vector/Unboxed/Deriving.hs, dist/dist-sandbox-1351b966/build/Data/Vector/Unboxed/Deriving.p_o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [1929, 4, 5, 2]
+    Size = {terms: 2,313, types: 3,389, coercions: 208, joins: 0/63}
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/vector-th-unbox-0.2.1.6-J4ArP3YAVinItDsIx0SKZB
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29908/vector-th-unbox-0.2.1.6'

@@ -1,0 +1,500 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29910/primitive-0.6.3.0'
+Configuring primitive-0.6.3.0...
+Preprocessing library for primitive-0.6.3.0..
+Building library for primitive-0.6.3.0..
+[ 1 of 12] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Primitive.o )
+
+Control/Monad/Primitive.hs:46:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads
+   |
+46 | import Control.Monad.Trans.List     ( ListT    )
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control/Monad/Primitive.hs:48:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+   |
+48 | import Control.Monad.Trans.Error    ( ErrorT, Error)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control/Monad/Primitive.hs:111:36: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+111 | instance PrimMonad m => PrimMonad (ListT m) where
+    |                                    ^^^^^
+
+Control/Monad/Primitive.hs:112:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+112 |   type PrimState (ListT m) = PrimState m
+    |                   ^^^^^
+
+Control/Monad/Primitive.hs:119:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+119 | instance (Error e, PrimMonad m) => PrimMonad (ErrorT e m) where
+    |           ^^^^^
+
+Control/Monad/Primitive.hs:119:47: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+119 | instance (Error e, PrimMonad m) => PrimMonad (ErrorT e m) where
+    |                                               ^^^^^^
+
+Control/Monad/Primitive.hs:120:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+120 |   type PrimState (ErrorT e m) = PrimState m
+    |                   ^^^^^^
+[ 2 of 12] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Internal/Compat.o )
+[ 3 of 12] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Array.o )
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: sameMutableArray
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: sameMutableArray
+[ 4 of 12] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/MachDeps.o )
+[ 5 of 12] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Internal/Operations.o )
+[ 6 of 12] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/MutVar.o )
+[ 7 of 12] Compiling Data.Primitive.SmallArray ( Data/Primitive/SmallArray.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/SmallArray.o )
+
+Data/Primitive/SmallArray.hs:79:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+79 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [4550, 615, 59, 1]
+    Size = {terms: 4,257, types: 8,118, coercions: 2,092, joins: 5/78}
+[ 8 of 12] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Types.o )
+[ 9 of 12] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/ByteArray.o )
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww1_sJRX
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww_sJRW
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww1_sJSp
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww_sJSo
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww1_sKGZ
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww_sKGY
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww1_sKHr
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww_sKHq
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+[10 of 12] Compiling Data.Primitive.Addr ( Data/Primitive/Addr.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Addr.o )
+[11 of 12] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-1351b966/build/Data/Primitive.o )
+[12 of 12] Compiling Data.Primitive.UnliftedArray ( Data/Primitive/UnliftedArray.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/UnliftedArray.o )
+[ 1 of 12] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-1351b966/build/Control/Monad/Primitive.p_o )
+
+Control/Monad/Primitive.hs:46:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.List’ is deprecated:
+      This transformer is invalid on most monads
+   |
+46 | import Control.Monad.Trans.List     ( ListT    )
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control/Monad/Primitive.hs:48:1: warning: [-Wdeprecations]
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+   |
+48 | import Control.Monad.Trans.Error    ( ErrorT, Error)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control/Monad/Primitive.hs:111:36: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+111 | instance PrimMonad m => PrimMonad (ListT m) where
+    |                                    ^^^^^
+
+Control/Monad/Primitive.hs:112:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ListT’
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+112 |   type PrimState (ListT m) = PrimState m
+    |                   ^^^^^
+
+Control/Monad/Primitive.hs:119:11: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+119 | instance (Error e, PrimMonad m) => PrimMonad (ErrorT e m) where
+    |           ^^^^^
+
+Control/Monad/Primitive.hs:119:47: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+119 | instance (Error e, PrimMonad m) => PrimMonad (ErrorT e m) where
+    |                                               ^^^^^^
+
+Control/Monad/Primitive.hs:120:19: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+120 |   type PrimState (ErrorT e m) = PrimState m
+    |                   ^^^^^^
+[ 2 of 12] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Internal/Compat.p_o )
+[ 3 of 12] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Array.p_o )
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sfOF]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [loop_sfDZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [loop_sfDZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [loop_sfDZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [loop_sfDZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [loop_sfDZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [loop_sfDZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [loop_sfDZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [loop_sfDZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [loop_sfDZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shws]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shwl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_shu6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shtw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh7f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sht1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_shsE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_shse]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shCz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shrk]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shws]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shwl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_shu6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shtw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh7f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sht1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_shsE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_shse]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shCz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shrk]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_shu6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shtw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh7f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: sameMutableArray
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shws]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shwl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_si8V]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_shu6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shtw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh7f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sht1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_shsE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_shse]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shCz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: sameMutableArray
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shws]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shwl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_shu6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shtw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh7f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sht1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_shsE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_shse]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shCz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shws]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shwl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_shu6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shtw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh7f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sht1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_shsE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_shse]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shCz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/SimplCore.hs, line 1025
+  Not shorting out: sameMutableArray
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shws]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shwl]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_shu6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shtw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh7f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sht1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_shsE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_shse]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shCz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_shse]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [go_aaeE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_shu6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sht1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_shsE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shtw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh7f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shCz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_shse]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_shu6]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_sht1]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_shsE]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_shtw]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_sh7f]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_shCz]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj73]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj6M]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wpush_sj0Y]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wgo_sj04]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_siZB]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_siYZ]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$w$j_siYk]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$wloop_siU7]
+WARNING: file compiler/simplCore/OccurAnal.hs, line 2714
+  OccurAnal failed to rediscover join point(s): [$j_siTF]
+[ 4 of 12] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/MachDeps.p_o )
+[ 5 of 12] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Internal/Operations.p_o )
+[ 6 of 12] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/MutVar.p_o )
+[ 7 of 12] Compiling Data.Primitive.SmallArray ( Data/Primitive/SmallArray.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/SmallArray.p_o )
+
+Data/Primitive/SmallArray.hs:79:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+79 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+WARNING: file compiler/simplCore/SimplCore.hs, line 706
+  Simplifier bailing out after 4 iterations [4550, 615, 59, 1]
+    Size = {terms: 4,257, types: 8,118, coercions: 2,092, joins: 5/78}
+[ 8 of 12] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Types.p_o )
+[ 9 of 12] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/ByteArray.p_o )
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww1_sH7W
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww_sH7V
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww1_sH8o
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+WARNING: file compiler/stgSyn/CoreToStg.hs, line 667
+  Dangerous-looking argument. Probable cause: bad unsafeCoerce#
+  ww_sH8n
+  `cast` (UnsafeCo representational ByteArray# ()
+          :: ByteArray# ~R# ())
+[10 of 12] Compiling Data.Primitive.Addr ( Data/Primitive/Addr.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/Addr.p_o )
+[11 of 12] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-1351b966/build/Data/Primitive.p_o )
+[12 of 12] Compiling Data.Primitive.UnliftedArray ( Data/Primitive/UnliftedArray.hs, dist/dist-sandbox-1351b966/build/Data/Primitive/UnliftedArray.p_o )
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/primitive-0.6.3.0-DE5vPG0REvtATbzS2qWSNG
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29910/primitive-0.6.3.0'

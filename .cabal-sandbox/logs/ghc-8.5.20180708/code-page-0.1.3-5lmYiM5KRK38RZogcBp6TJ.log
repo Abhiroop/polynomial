@@ -1,0 +1,12 @@
+cabal: Entering directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/code-page-0.1.3'
+Configuring code-page-0.1.3...
+Preprocessing library for code-page-0.1.3..
+Building library for code-page-0.1.3..
+[1 of 2] Compiling System.IO.CodePage ( src/System/IO/CodePage.hs, dist/dist-sandbox-1351b966/build/System/IO/CodePage.o )
+[2 of 2] Compiling System.Win32.CodePage ( dist/dist-sandbox-1351b966/build/System/Win32/CodePage.hs, dist/dist-sandbox-1351b966/build/System/Win32/CodePage.o )
+[1 of 2] Compiling System.IO.CodePage ( src/System/IO/CodePage.hs, dist/dist-sandbox-1351b966/build/System/IO/CodePage.p_o )
+[2 of 2] Compiling System.Win32.CodePage ( dist/dist-sandbox-1351b966/build/System/Win32/CodePage.hs, dist/dist-sandbox-1351b966/build/System/Win32/CodePage.p_o )
+cabal: Haddock's internal GHC version must match the configured GHC version.
+The GHC version is 8.5.20180708 but haddock is using GHC version 7.10.3
+Installing library in /Users/abhiroop/Haskell/polynomial/.cabal-sandbox/lib/x86_64-osx-ghc-8.5.20180708/code-page-0.1.3-5lmYiM5KRK38RZogcBp6TJ
+cabal: Leaving directory '/var/folders/dl/rslctfrj4xl50jnzhtlxdfqr0000gn/T/cabal-tmp-29909/code-page-0.1.3'
